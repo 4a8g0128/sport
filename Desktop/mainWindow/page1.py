@@ -1,0 +1,202 @@
+# -*- coding: utf-8 -*-
+from PySide2 import QtCore
+################################################################################
+## Form generated from reading UI file 'win1.ui'
+##
+## Created by: Qt User Interface Compiler version 5.15.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+import sys
+from PySide2.QtWidgets import QPushButton
+from action1 import Ui_MainWindow_action1
+class Ui_MainWindow_page1(object):
+
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(800, 600)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.toolButton = QToolButton(self.centralwidget)
+        self.toolButton.setObjectName(u"toolButton")
+        self.toolButton.setGeometry(QRect(30, 110, 141, 131))
+        self.toolButton.setMaximumSize(QSize(16777215, 16777215))
+        self.toolButton.setAutoFillBackground(False)
+        self.toolButton.setStyleSheet(u"")
+        icon = QIcon()
+        icon.addFile(u"./Image/1.1.jpg", QSize(), QIcon.Normal, QIcon.Off)
+        self.toolButton.setIcon(icon)
+        self.toolButton.setIconSize(QSize(16777215, 16777215))
+        self.toolButton.setCheckable(True)
+        self.toolButton_2 = QToolButton(self.centralwidget)
+        self.toolButton_2.setObjectName(u"toolButton_2")
+        self.toolButton_2.setGeometry(QRect(220, 110, 141, 131))
+        self.toolButton_2.setAutoFillBackground(False)
+        self.toolButton_2.setStyleSheet(u"")
+        icon1 = QIcon()
+        icon1.addFile(u"./Image/2.jpg", QSize(), QIcon.Normal, QIcon.Off)
+        self.toolButton_2.setIcon(icon1)
+        self.toolButton_2.setIconSize(QSize(16777215, 16777215))
+        self.toolButton_3 = QToolButton(self.centralwidget)
+        self.toolButton_3.setObjectName(u"toolButton_3")
+        self.toolButton_3.setGeometry(QRect(410, 110, 141, 131))
+        self.toolButton_3.setAutoFillBackground(False)
+        self.toolButton_3.setStyleSheet(u"")
+        icon2 = QIcon()
+        icon2.addFile(u"./Image/3.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.toolButton_3.setIcon(icon2)
+        self.toolButton_3.setIconSize(QSize(16777215, 16777215))
+        self.toolButton_4 = QToolButton(self.centralwidget)
+        self.toolButton_4.setObjectName(u"toolButton_4")
+        self.toolButton_4.setGeometry(QRect(600, 110, 141, 131))
+        self.toolButton_4.setAutoFillBackground(False)
+        self.toolButton_4.setStyleSheet(u"")
+        icon3 = QIcon()
+        icon3.addFile(u"./Image/10.jpg", QSize(), QIcon.Normal, QIcon.Off)
+        self.toolButton_4.setIcon(icon3)
+        self.toolButton_4.setIconSize(QSize(16777215, 16777215))
+        self.toolButton_5 = QToolButton(self.centralwidget)
+        self.toolButton_5.setObjectName(u"toolButton_5")
+        self.toolButton_5.setGeometry(QRect(30, 330, 141, 131))
+        self.toolButton_5.setAutoFillBackground(False)
+        self.toolButton_5.setStyleSheet(u"")
+        icon4 = QIcon()
+        icon4.addFile(u"./Image/5.jpg", QSize(), QIcon.Normal, QIcon.Off)
+        self.toolButton_5.setIcon(icon4)
+        self.toolButton_5.setIconSize(QSize(16777215, 16777215))
+        self.toolButton_6 = QToolButton(self.centralwidget)
+        self.toolButton_6.setObjectName(u"toolButton_6")
+        self.toolButton_6.setGeometry(QRect(220, 330, 141, 131))
+        self.toolButton_6.setAutoFillBackground(False)
+        self.toolButton_6.setStyleSheet(u"")
+        icon5 = QIcon()
+        icon5.addFile(u"./Image/6.jpg", QSize(), QIcon.Normal, QIcon.Off)
+        self.toolButton_6.setIcon(icon5)
+        self.toolButton_6.setIconSize(QSize(16777215, 16777215))
+        self.toolButton_7 = QToolButton(self.centralwidget)
+        self.toolButton_7.setObjectName(u"toolButton_7")
+        self.toolButton_7.setGeometry(QRect(420, 330, 141, 131))
+        self.toolButton_7.setAutoFillBackground(False)
+        self.toolButton_7.setStyleSheet(u"")
+        icon6 = QIcon()
+        icon6.addFile(u"./Image/11.jpg", QSize(), QIcon.Normal, QIcon.Off)
+        self.toolButton_7.setIcon(icon6)
+        self.toolButton_7.setIconSize(QSize(16777215, 16777215))
+        self.toolButton_8 = QToolButton(self.centralwidget)
+        self.toolButton_8.setObjectName(u"toolButton_8")
+        self.toolButton_8.setGeometry(QRect(610, 330, 141, 131))
+        self.toolButton_8.setAutoFillBackground(False)
+        self.toolButton_8.setStyleSheet(u"")
+        icon7 = QIcon()
+        icon7.addFile(u"./Image/9.jpg", QSize(), QIcon.Normal, QIcon.Off)
+        self.toolButton_8.setIcon(icon7)
+        self.toolButton_8.setIconSize(QSize(16777215, 16777215))
+        self.label = QLabel(self.centralwidget)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(260, 20, 261, 41))
+        font = QFont()
+        font.setPointSize(16)
+        font.setBold(True)
+        font.setWeight(75)
+        font.setStrikeOut(False)
+        font.setKerning(True)
+        self.label.setFont(font)
+        self.label.setLayoutDirection(Qt.LeftToRight)
+        self.label_2 = QLabel(self.centralwidget)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(40, 250, 131, 41))
+        font1 = QFont()
+        font1.setPointSize(13)
+        self.label_2.setFont(font1)
+        self.label_3 = QLabel(self.centralwidget)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(240, 250, 91, 41))
+        self.label_3.setFont(font1)
+        self.label_4 = QLabel(self.centralwidget)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setGeometry(QRect(470, 250, 41, 41))
+        self.label_4.setFont(font1)
+        self.label_5 = QLabel(self.centralwidget)
+        self.label_5.setObjectName(u"label_5")
+        self.label_5.setGeometry(QRect(660, 250, 41, 41))
+        self.label_5.setFont(font1)
+        self.label_6 = QLabel(self.centralwidget)
+        self.label_6.setObjectName(u"label_6")
+        self.label_6.setGeometry(QRect(50, 470, 91, 41))
+        self.label_6.setFont(font1)
+        self.label_7 = QLabel(self.centralwidget)
+        self.label_7.setObjectName(u"label_7")
+        self.label_7.setGeometry(QRect(270, 470, 71, 41))
+        self.label_7.setFont(font1)
+        self.label_8 = QLabel(self.centralwidget)
+        self.label_8.setObjectName(u"label_8")
+        self.label_8.setGeometry(QRect(470, 470, 71, 41))
+        self.label_8.setFont(font1)
+        self.label_9 = QLabel(self.centralwidget)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setGeometry(QRect(630, 470, 101, 41))
+        self.label_9.setFont(font1)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 800, 25))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+
+        MainWindow.setStatusBar(self.statusbar)
+      #  self.toolButton.clicked.connect(self.jumptoaction1)
+
+        self.retranslateUi(MainWindow)
+
+        QMetaObject.connectSlotsByName(MainWindow)
+
+    # setupUi
+   # @QtCore.Slot()
+  #  def jumptoaction1(self):
+   #     print('jump2')
+  #      window.close()
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.toolButton.setText(QCoreApplication.translate("MainWindow", u"...", None))
+        self.toolButton_2.setText(QCoreApplication.translate("MainWindow", u"...", None))
+        self.toolButton_3.setText(QCoreApplication.translate("MainWindow", u"...", None))
+        self.toolButton_4.setText(QCoreApplication.translate("MainWindow", u"...", None))
+        self.toolButton_5.setText(QCoreApplication.translate("MainWindow", u"...", None))
+        self.toolButton_6.setText(QCoreApplication.translate("MainWindow", u"...", None))
+        self.toolButton_7.setText(QCoreApplication.translate("MainWindow", u"...", None))
+        self.toolButton_8.setText(QCoreApplication.translate("MainWindow", u"...", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"   \u5fa9\u5065\u59ff\u52e2\u6bd4\u5c0d\u7cfb\u7d71", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"\u4e0b\u80a2\u808c\u529b\u8a13\u7df4", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"\u96d9\u624b\u5e73\u8209", None))
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"\u624b", None))
+        self.label_5.setText(QCoreApplication.translate("MainWindow", u"\u8170", None))
+        self.label_6.setText(QCoreApplication.translate("MainWindow", u"\u624b\u81c2\u5f4e\u66f2", None))
+        self.label_7.setText(QCoreApplication.translate("MainWindow", u"\u534a\u8e72", None))
+        self.label_8.setText(QCoreApplication.translate("MainWindow", u"\u62ac\u817f", None))
+        self.label_9.setText(QCoreApplication.translate("MainWindow", u"\u624b\u81c2\u4e0a\u8209", None))
+    # retranslateUi
+
+
+
+class MainWindow(QMainWindow):
+        def __init__(self):
+            super(MainWindow, self).__init__()
+            self.ui = Ui_MainWindow_page1()
+            self.ui.setupUi(self)
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+
+    window = MainWindow()
+    window.show()
+    #toolButton.clicked.connect(op1)
+    sys.exit(app.exec_())
+
+
